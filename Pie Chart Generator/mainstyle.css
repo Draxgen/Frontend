@@ -1,0 +1,25 @@
+body {
+    background: black;
+}
+
+#canvas {
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    border: thin inset black;
+}
+
+#json-data {
+    margin: 10px;
+    padding: 10px;
+    width: 620px;
+    height: 200px;
+    background: white;
+    border: thin inset black;
+}
+
+.mybut {
+    margin: 10px;
+    padding: 10px;
+    width: 620px;
+}
