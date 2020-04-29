@@ -4,6 +4,12 @@ body, ul, li, h1, h2, a, img, p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 body {
     background-color: #141414;
     color: #dddddd;
@@ -13,32 +19,79 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    /* width: 100%; */
 }
 
 header p {
     text-align: center;
     font-size: 25px;
+    padding: 15px;
+}
+
+nav {
+    background-color: #313131;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
+    white-space: nowrap;    
     margin: 0 auto;
-    /* max-width: 3000px; */
-    
+    max-width: 1200px;
+}
+
+li a.join {
+    text-transform: uppercase;
 }
 
 nav li {
     display: inline-block;
-    margin: 20px auto;
+    width: 24.75%;
+    margin: 10px 0;
     text-align: center;
+    font-size: 23px;
+    /* border: 1px #ff0022cc solid; */
+}
+
+nav li:hover{
+    color: crimson;
+    text-decoration: underline;
 }
 
 main {
-    width: 100%;
+    max-width: 100%;
+    width: 1200px;
+    margin: 40px auto;
 }
+
+main article p {
+    margin: 40px auto;
+}
+
+main article span {
+    color: crimson;
+    font-size: 1.2em;
+}
+
+main ul {
+    white-space: nowrap;    
+    margin: 0 auto;
+}
+
+main ul li{
+    display: inline-block;
+    width: 50%;
+    margin: 0px auto 40px;
+}
+
 
 main img {
     width: 100%;
+}
+
+
+footer {
+    background-color: #313131;
 }
 
 /* RESPONSIVE DESIGN */
