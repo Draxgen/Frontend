@@ -4,6 +4,16 @@ body, ul, li, h1, h2, a, img, p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+main p {
+    padding: 10px 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -19,7 +29,7 @@ header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 100%; */
+    width: 100%;
 }
 
 header p {
@@ -30,12 +40,12 @@ header p {
 
 nav {
     background-color: #313131;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 }
 
 nav ul {
-    white-space: nowrap;    
+    white-space: nowrap;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -45,27 +55,33 @@ li a.join {
 }
 
 nav li {
-    display: inline-block;
-    width: 24.75%;
+    /* display: inline-block; */
+    /* width: 24.75%; */
     margin: 10px 0;
     text-align: center;
     font-size: 23px;
     /* border: 1px #ff0022cc solid; */
 }
 
-nav li:hover{
+nav li:hover {
     color: crimson;
     text-decoration: underline;
 }
 
 main {
     max-width: 100%;
-    width: 1200px;
+    /* width: 1200px; */
+    width: 80em; /*80 times the fony size */
     margin: 40px auto;
 }
 
 main article p {
     margin: 40px auto;
+}
+
+main p::first-line {
+    color: crimson;
+    font-size: 1.2em;
 }
 
 main article span {
@@ -74,24 +90,31 @@ main article span {
 }
 
 main ul {
-    white-space: nowrap;    
+    white-space: nowrap;
     margin: 0 auto;
+    list-style: none;
 }
 
-main ul li{
-    display: inline-block;
-    width: 50%;
+.images {
+    text-align: center;
+}
+
+main ul li {
+    width: 90%;
     margin: 0px auto 40px;
 }
 
-
 main img {
-    width: 100%;
+    width: 95%;
 }
-
 
 footer {
     background-color: #313131;
+}
+
+footer h2 {
+    padding: 50px 50px;
+    text-align: center;
 }
 
 /* RESPONSIVE DESIGN */
@@ -99,5 +122,21 @@ footer {
 @media screen and (min-width: 800px) {
     header img {
         width: auto;
+    }
+    nav {
+        position: sticky;
+        top: 0;
+    }
+    nav li {
+        display: inline-block;
+        width: 24.75%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    main ul li {
+        display: inline-block;
+        width: 45%;
+        margin: 20px auto 40px;
     }
 }
