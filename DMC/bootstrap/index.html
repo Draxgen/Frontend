@@ -14,38 +14,91 @@
 </head>
 
 <body class="bg-dark">
+    <header class="d-flex flex-column justify-content-center">
+        <img class="img-fluid mx-auto d-block" src="img/dmc-logo.png" alt="devil may cry logo">
+        <h5 class=" display-lg-5 text-light text-center p-3 site-heading mx-auto d-inline-block">Website
+            dedicated to most action packed video game series</h5>
+    </header>
     <nav class="navbar navbar-expand-md bg-danger navbar-dark ">
-        <a class="navbar-brand" href="#">DMC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">DMC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">JOIN THE CLUB  </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_Wiki">Wiki</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">JOIN THE CLUB </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://devilmaycry.fandom.com/wiki/Devil_May_Cry_Wiki">Wiki</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <header>
-        <img class="img-fluid mx-auto d-block" src="img/dmc-logo.png" alt="devil may cry logo">
-        <h5 class="display-md-5 text-center text-light mx-auto shadow p-3 site-heading">Website dedicated to most action packed video game series</h5>
-    </header>
-    <div class="content">
+    <div class="container">
+        <article class="text-light">
+            <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum explicabo repudiandae corrupti,
+                perferendis,
+                quae eaque doloremque hic iste iure tenetur dolorem quam laborum modi veniam quasi recusandae voluptates
+                animi error. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est perspiciatis officia soluta
+                neque
+                deleniti quae voluptatum reprehenderit a iure non maxime sint minus aspernatur, eos laudantium,
+                doloribus
+                cum porro fugiat?</p>
 
+            <div id="carouselExampleIndicators" class="carousel slide border" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="img/dmc1.png"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/dmc2.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="img/dmc3.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            <p class="py-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi vitae voluptates assumenda fugiat ut
+                impedit quisquam totam id fuga corrupti vero similique veritatis, quod ducimus libero nostrum eligendi
+                itaque ipsum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, nisi ea laborum recusandae
+                aliquam qui voluptas itaque consequatur pariatur fugit suscipit repellendus neque iste doloremque
+                ducimus ratione veritatis tenetur quas? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio
+                vel in itaque amet. Dolore iusto minima sit laborum est esse commodi, dignissimos provident fuga aliquid
+                pariatur veritatis soluta labore odio!</p>
+
+        </article>
     </div>
+    <footer class="text-light bg-danger">
+        <div class="text-center text-capitalize display-4 font-italic m-0 w-100 py-5">devil sometimes cries</div>
+    </footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

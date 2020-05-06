@@ -8,8 +8,27 @@ html{
 }
 
 .site-heading {
-    border: solid red 3px;
+    /* border: solid red 3px; */
     border-radius: 100px;
-    /* display: inline-block; */
-    /* margin: 0 auto; */
+}
+
+footer {
+    background-color: black;
+    box-shadow: 0 50vh 0 50vh black;
+}
+
+nav {
+    font-size: 25px;
+}
+
+article p {
+    font-size: 20px;
+}
+
+article p::first-line {
+    color: red;
+}
+
+@media screen and (max-width: 756px){
+    
 }
